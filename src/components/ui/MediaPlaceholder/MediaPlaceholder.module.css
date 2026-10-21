@@ -1,0 +1,24 @@
+.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-4);
+  background: var(--color-gray-100);
+  border: var(--border-width) dashed var(--color-border);
+  border-radius: var(--radius-lg);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  text-align: center;
+}
+
+.wide {
+  aspect-ratio: 16 / 9;
+}
+
+.standard {
+  aspect-ratio: 4 / 3;
+}
+
+.square {
+  aspect-ratio: 1;
+}

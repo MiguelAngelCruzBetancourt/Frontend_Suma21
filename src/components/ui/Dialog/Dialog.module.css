@@ -1,0 +1,45 @@
+.dialog {
+  padding: 0;
+  border: 0;
+  overflow: auto;
+}
+
+.dialog::backdrop {
+  background: var(--color-overlay-dark);
+}
+
+.fullscreen {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  margin: 0;
+}
+
+.fullscreen .close {
+  position: fixed;
+  background: var(--color-overlay-dark);
+}
+
+.centered {
+  width: min(100% - var(--space-5), 40rem);
+  max-height: calc(100% - var(--space-5));
+  border-radius: var(--radius-lg);
+}
+
+.close {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  background: transparent;
+  border: var(--border-width) solid currentColor;
+  border-radius: 50%;
+  color: inherit;
+  cursor: pointer;
+}

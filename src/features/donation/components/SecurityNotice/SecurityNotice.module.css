@@ -1,0 +1,24 @@
+.notice {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-primary);
+  border-radius: var(--radius-sm);
+  color: var(--color-primary-contrast);
+  text-align: left;
+}
+
+.notice svg {
+  flex: none;
+}
+
+.title {
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: var(--font-size-sm);
+}

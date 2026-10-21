@@ -1,0 +1,19 @@
+.group {
+  display: inline-flex;
+  gap: var(--space-1);
+  padding: var(--space-1);
+  background: var(--color-surface);
+  border-radius: var(--radius-md);
+}
+
+.option {
+  min-width: 2.5rem;
+  min-height: 2.25rem;
+  font-weight: var(--font-weight-bold);
+}
+
+.option[aria-pressed="true"] {
+  background: var(--color-bg);
+  border-color: var(--color-green-700);
+  color: var(--color-green-700);
+}

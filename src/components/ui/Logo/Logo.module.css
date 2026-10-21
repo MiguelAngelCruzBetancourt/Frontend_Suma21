@@ -1,0 +1,15 @@
+.logo {
+  width: auto;
+}
+
+.sm {
+  height: var(--space-6);
+}
+
+.md {
+  height: var(--space-7);
+}
+
+.lg {
+  height: var(--space-8);
+}
